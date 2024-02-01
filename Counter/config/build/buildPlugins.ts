@@ -2,7 +2,6 @@ import HtmlWebpackPlugin from "html-webpack-plugin";
 import MiniCssExtractPlugin from "mini-css-extract-plugin";
 import webpack, { container } from "webpack";
 import { BuildOptions } from "./types/config";
-import packageJson from "../../package.json";
 
 export function buildPlugins({
   paths,

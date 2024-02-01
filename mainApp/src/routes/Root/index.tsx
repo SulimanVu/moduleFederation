@@ -1,6 +1,6 @@
 import { Suspense } from "react";
 import { Link, Outlet } from "react-router-dom";
-import { useTheme } from "../../theme/useTheme";
+import { useTheme } from "@/theme/useTheme";
 
 const Root = () => {
   const { theme, toggleTheme } = useTheme();

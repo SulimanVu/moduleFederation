@@ -1,12 +1,7 @@
 import styles from "./counter.module.scss";
 
 const Counter = () => {
-  return "counter";
+  return <div>dfjdnskfn</div>;
 };
 
 export default Counter;
-
-// export default () => {
-//   return <div className={styles.bl}>counter</div>;
-// };
-

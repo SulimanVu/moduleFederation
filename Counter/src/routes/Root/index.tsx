@@ -1,7 +1,7 @@
 import { Suspense } from "react";
 import { Link, Outlet } from "react-router-dom";
-import { useTheme } from "../../theme/useTheme";
-import Counter from "../../components/Counter";
+import { useTheme } from "@/theme/useTheme";
+import Counter from "@/components/Counter";
 
 const Root = () => {
   const { theme, toggleTheme } = useTheme();

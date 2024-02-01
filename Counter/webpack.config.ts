@@ -8,7 +8,7 @@ export default (env: BuildEnv) => {
     entry: path.resolve(__dirname, "src", "index.tsx"),
     build: path.resolve(__dirname, "build"),
     html: path.resolve(__dirname, "public", "index.html"),
-    counter: path.resolve(__dirname, "src", "Counter.tsx"),
+    counter: path.resolve(__dirname, "src/components", "Counter.tsx"),
     src: path.resolve(__dirname, "src"),
   };
 

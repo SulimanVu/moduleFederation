@@ -1,5 +1,5 @@
-import AppRouter from "../providers/AppRouter";
-import ThemeProvider from "../theme/ThemeProvider";
+import AppRouter from "@/providers/AppRouter";
+import ThemeProvider from "@/theme/ThemeProvider";
 
 const App = () => {
   return (
